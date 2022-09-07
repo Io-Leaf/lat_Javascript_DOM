@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="Sigil Athenaeum.jpg" alt="" id="gambar1">
+    <img src="League of Legends - The Celestial Twin by Paddy-F on DeviantArt.jpg" alt="" id="gambar2">
+     <script>
+         var gambar=document.getElementById("gambar1")
+         var image=document.getElementById("gambar2")
+         var img= document.createElement("img")
+        img.remove();
+
+        img.textContent = "Gambar"
+        document.body.append(img)
+
+            gambar.style.padding="5px"
+            gambar.style.backgroundColor="black"
+            gambar.style.borderRadius="100%"
+            gambar.style.width="200px"
+            gambar.style.height="200px"
+            gambar.style.position="relative"
+            gambar.style.top="100px"
+            gambar.style.bottom=""
+            gambar.style.left="200px"
+            gambar.style.right=""
+
+            image.style.backgroundColor="black"
+            image.style.padding="5px"
+            image.style.borderRadius="100%"
+            image.style.width="200px"
+            image.style.height="200px"
+            image.style.position="relative"
+            image.style.top="100px"
+            image.style.bottom=""
+            image.style.left="400px"
+            image.style.right=""
+     </script>
+</body>
+</html>
